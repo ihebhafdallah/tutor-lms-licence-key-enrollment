@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+
+#. Plugin Name of the plugin
+#: tutor-lms-licence-key-enrollment.php
+msgid "Tutor LMS Licence Key Enrollment"
+msgstr "Inscription par clé de licence Tutor LMS"
+
+#. Description of the plugin
+#: tutor-lms-licence-key-enrollment.php
+msgid ""
+"Tutor LMS Licence Key Enrollment lets users enroll in courses using a "
+"licence key. Admins generate course licence keys and share them with users, "
+"who can submit their key via a frontend form using the shortcode "
+"<code>[tutor_licence_key]</code> to get enrolled instantly."
+msgstr ""
+"L'extension 'Inscription par clé de licence Tutor LMS' permet aux "
+"utilisateurs de s'inscrire aux cours à l'aide d'une clé de licence. Les "
+"administrateurs génèrent des clés de licence pour les cours et les "
+"partagent avec les utilisateurs, qui peuvent soumettre leur clé via un "
+"formulaire frontal en utilisant le shortcode <code>[tutor_licence_key]</"
+"code> pour être inscrits instantanément."
+
+#. Author of the plugin
+#: tutor-lms-licence-key-enrollment.php
+msgid "Iheb HAFDALLAH"
+msgstr "Iheb HAFDALLAH"
+
+#. Author URI of the plugin
+#: tutor-lms-licence-key-enrollment.php
+msgid "https://ihebhafdallah.com/"
+msgstr "https://ihebhafdallah.com/"
+
+#: includes/class-admin.php:16 includes/class-admin.php:17
+#: includes/class-admin.php:60
+msgid "Licence Keys"
+msgstr "Clés de licence"
+
+#: includes/class-admin.php:30
+msgid "Generate Licence Keys"
+msgstr "Générer des clés de licence"
+
+#: includes/class-admin.php:38 includes/class-licence-key-table.php:11
+msgid "Course"
+msgstr "Cours"
+
+#: includes/class-admin.php:42
+msgid "Number of Keys"
+msgstr "Nombre de clés"
+
+#: includes/class-admin.php:45
+msgid "5"
+msgstr "5"
+
+#: includes/class-admin.php:46
+msgid "10"
+msgstr "10"
+
+#: includes/class-admin.php:47
+msgid "25"
+msgstr "25"
+
+#: includes/class-admin.php:48
+msgid "50"
+msgstr "50"
+
+#: includes/class-admin.php:49
+msgid "100"
+msgstr "100"
+
+#: includes/class-admin.php:55
+msgid "Generate Keys"
+msgstr "Générer les clés"
+
+#: includes/class-licence-key-shortcode.php:13
+msgid "Please login to use a licence key."
+msgstr "Veuillez vous connecter pour utiliser une clé de licence."
+
+#: includes/class-licence-key-shortcode.php:25
+msgid "XXXX-XXXX-XXXX-XXXX"
+msgstr "XXXX-XXXX-XXXX-XXXX"
+
+#: includes/class-licence-key-shortcode.php:30
+msgid "Activate Licence"
+msgstr "Activer la licence"
+
+#: includes/class-licence-key-shortcode.php:72
+msgid "Invalid or expired licence key."
+msgstr "Clé de licence invalide ou expirée."
+
+#: includes/class-licence-key-shortcode.php:80
+msgid "Course product not found."
+msgstr "Produit du cours non trouvé."
+
+#: includes/class-licence-key-shortcode.php:95
+msgid "Licence key enrollment"
+msgstr "Inscription par clé de licence"
+
+#: includes/class-licence-key-shortcode.php:110
+msgid "Course activated successfully!"
+msgstr "Cours activé avec succès !"
+
+#: includes/class-licence-key-table.php:12
+msgid "Licence Key"
+msgstr "Clé de licence"
+
+#: includes/class-licence-key-table.php:13
+msgid "Status"
+msgstr "Statut"
+
+#: includes/class-licence-key-table.php:14
+msgid "Created"
+msgstr "Créé le"
+
+#: includes/class-licence-key-table.php:46
+msgid "Deleted course"
+msgstr "Cours supprimé"
+
+#: includes/class-licence-key-table.php:70
+msgid "All Courses"
+msgstr "Tous les cours"
+
+#: includes/class-licence-key-table.php:89
+msgid "All Statuses"
+msgstr "Tous les statuts"
+
+#: includes/class-licence-key-table.php:91
+msgid "Active"
+msgstr "Actif"
+
+#: includes/class-licence-key-table.php:94
+msgid "Sent to User"
+msgstr "Envoyé à l'utilisateur"
+
+#: includes/class-licence-key-table.php:97
+msgid "Expired"
+msgstr "Expiré"
+
+#: includes/class-licence-key-table.php:125
+msgid "Mark as Active"
+msgstr "Marquer comme actif"
+
+#: includes/class-licence-key-table.php:126
+msgid "Mark as Sent"
+msgstr "Marquer comme envoyé"
+
+#: includes/class-licence-key-table.php:127
+msgid "Mark as Expired"
+msgstr "Marquer comme expiré"
+
+#: includes/class-licence-key-table.php:128
+msgid "Delete"
+msgstr "Supprimer"
