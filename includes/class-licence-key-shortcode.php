@@ -111,7 +111,12 @@ class Tutor_Licence_Key_Shortcode
         $order->update_meta_data('_tutor_course_id', $course_id);
         $order->save();
 
-        $this->redirect_msg(__('Course activated successfully!', 'tutor-lms-licence-key-enrollment'));
+        //$this->redirect_msg(__('Course activated successfully!', 'tutor-lms-licence-key-enrollment'));
+
+        $course_url = get_permalink($course_id);
+
+        wp_safe_redirect($course_url);
+        exit;
     }
 
     private function redirect_msg($message)
